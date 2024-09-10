@@ -1,8 +1,8 @@
 namespace TilesModdingTool;
 
-public partial class Form1 : Form
+public partial class ToolSelector : Form
 {
-    public Form1()
+    public ToolSelector()
     {
         InitializeComponent();
     }
