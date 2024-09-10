@@ -40,6 +40,7 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
+            richTextBox1 = new RichTextBox();
             tabControl1.SuspendLayout();
             Overview.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
@@ -113,6 +114,7 @@
             tableLayoutPanel1.ColumnCount = 1;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
             tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 0, 0);
+            tableLayoutPanel1.Controls.Add(richTextBox1, 0, 1);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(5, 4);
             tableLayoutPanel1.Margin = new Padding(5, 4, 5, 4);
@@ -181,7 +183,7 @@
             label2.Name = "label2";
             label2.Size = new Size(826, 72);
             label2.TabIndex = 2;
-            label2.Text = "Pack Version: 1.0.0";
+            label2.Text = "Pack Version: 0.5.0";
             label2.TextAlign = ContentAlignment.BottomLeft;
             // 
             // label3
@@ -194,8 +196,22 @@
             label3.Name = "label3";
             label3.Size = new Size(826, 72);
             label3.TabIndex = 3;
-            label3.Text = "Game Version: 0.4.0";
+            label3.Text = "Game Version: 0.5.0";
             label3.TextAlign = ContentAlignment.BottomLeft;
+            // 
+            // richTextBox1
+            // 
+            richTextBox1.BackColor = Color.FromArgb(63, 71, 84);
+            richTextBox1.BorderStyle = BorderStyle.None;
+            richTextBox1.Dock = DockStyle.Fill;
+            richTextBox1.ForeColor = SystemColors.ButtonHighlight;
+            richTextBox1.Location = new Point(3, 253);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.ReadOnly = true;
+            richTextBox1.RightToLeft = RightToLeft.No;
+            richTextBox1.Size = new Size(1836, 881);
+            richTextBox1.TabIndex = 1;
+            richTextBox1.Text = "Tile Count:\n128\n\nDependencies:\nUsing Skin Pack: Default v0.5.0\nUsing Research Pack: None\n\nDescription:\nThis is the default tile pack that is updated only during game updates.";
             // 
             // FrmTileEditTool
             // 
@@ -208,7 +224,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(5, 4, 5, 4);
             Name = "FrmTileEditTool";
-            Text = "FrmTileEditTool";
+            Text = "Tile Pack Editor";
             tabControl1.ResumeLayout(false);
             Overview.ResumeLayout(false);
             tableLayoutPanel1.ResumeLayout(false);
@@ -231,5 +247,6 @@
         private Label label1;
         private Label label2;
         private Label label3;
+        private RichTextBox richTextBox1;
     }
 }

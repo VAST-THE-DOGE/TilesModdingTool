@@ -91,7 +91,7 @@ partial class ToolSelector
         label1.Name = "label1";
         label1.Size = new Size(2268, 97);
         label1.TabIndex = 0;
-        label1.Text = "Welcome to Tiles Modding Tool";
+        label1.Text = "Welcome to the Tiles Modding Tool!";
         label1.TextAlign = ContentAlignment.MiddleCenter;
         // 
         // tableLayoutPanel2
@@ -147,7 +147,7 @@ partial class ToolSelector
         buttonMusicEdit.FlatAppearance.MouseOverBackColor = Color.Yellow;
         buttonMusicEdit.FlatStyle = FlatStyle.Flat;
         buttonMusicEdit.Font = new Font("Arial", 20.1F, FontStyle.Regular, GraphicsUnit.Point, 0);
-        buttonMusicEdit.ForeColor = SystemColors.ButtonHighlight;
+        buttonMusicEdit.ForeColor = SystemColors.ActiveCaptionText;
         buttonMusicEdit.Location = new Point(1160, 25);
         buttonMusicEdit.Margin = new Padding(25);
         buttonMusicEdit.Name = "buttonMusicEdit";
@@ -173,7 +173,7 @@ partial class ToolSelector
         buttonTileEdit.Name = "buttonTileEdit";
         buttonTileEdit.Size = new Size(1085, 284);
         buttonTileEdit.TabIndex = 2;
-        buttonTileEdit.Text = "Tile Editor ";
+        buttonTileEdit.Text = "Tile Pack Editor ";
         buttonTileEdit.UseVisualStyleBackColor = false;
         // 
         // buttonLeaderEdit
@@ -187,7 +187,7 @@ partial class ToolSelector
         buttonLeaderEdit.FlatAppearance.MouseOverBackColor = Color.Yellow;
         buttonLeaderEdit.FlatStyle = FlatStyle.Flat;
         buttonLeaderEdit.Font = new Font("Arial", 20.1F, FontStyle.Regular, GraphicsUnit.Point, 0);
-        buttonLeaderEdit.ForeColor = SystemColors.ButtonHighlight;
+        buttonLeaderEdit.ForeColor = SystemColors.ActiveCaptionText;
         buttonLeaderEdit.Location = new Point(1160, 359);
         buttonLeaderEdit.Margin = new Padding(25);
         buttonLeaderEdit.Name = "buttonLeaderEdit";
@@ -227,7 +227,7 @@ partial class ToolSelector
         buttonResearchEdit.FlatAppearance.MouseOverBackColor = Color.Yellow;
         buttonResearchEdit.FlatStyle = FlatStyle.Flat;
         buttonResearchEdit.Font = new Font("Arial", 20.1F, FontStyle.Regular, GraphicsUnit.Point, 0);
-        buttonResearchEdit.ForeColor = SystemColors.ButtonHighlight;
+        buttonResearchEdit.ForeColor = SystemColors.ActiveCaptionText;
         buttonResearchEdit.Location = new Point(25, 693);
         buttonResearchEdit.Margin = new Padding(25);
         buttonResearchEdit.Name = "buttonResearchEdit";
